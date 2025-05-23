@@ -2,7 +2,7 @@
   "name": "vscode-ags-script",
   "displayName": "AGS Script Language",
   "description": "Adventure Game Studio (AGS) scripting language support.",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "engines": {
     "vscode": "^1.100.0"
   },

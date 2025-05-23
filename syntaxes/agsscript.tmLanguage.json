@@ -75,7 +75,7 @@
                 },
                 {
                     "name": "keyword.other.agsscript",
-                    "match": "\\b(struct|enum|extends|static|readonly|managed|import|export|const|new|this|protected|writeprotected|noloopcheck|function)\\b"
+                    "match": "\\b(struct|enum|extends|static|readonly|managed|import|export|const|new|this|protected|writeprotected|noloopcheck|function|attribute)\\b"
                 },
                 {
                     "name": "constant.language.agsscript",
