@@ -3,6 +3,14 @@
   "displayName": "AGS Script Language",
   "description": "Adventure Game Studio (AGS) scripting language support.",
   "version": "1.0.0-alpha.0",
+  "author": {
+    "name": "Clickpulp, LLC",
+    "url": "https://clickpulp.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/clickpulp/vscode-ags-script.git"
+  },
   "engines": {
     "vscode": "^1.100.0"
   },
