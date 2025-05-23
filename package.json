@@ -1,0 +1,25 @@
+{
+  "name": "vscode-ags-script",
+  "displayName": "AGS Script Language",
+  "description": "Adventure Game Studio (AGS) scripting language support.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.100.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "agsscript",
+      "aliases": ["AGS Script", "agsscript"],
+      "extensions": [".asc",".ash"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "agsscript",
+      "scopeName": "source.agsscript",
+      "path": "./syntaxes/agsscript.tmLanguage.json"
+    }]
+  }
+}
